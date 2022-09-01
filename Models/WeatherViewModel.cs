@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebWeather202208.Models
 {
-    public class WeatherViewModel
+    public class WeatherViewModel //参考サイト→https://manojbkalla.weebly.com/ではResultViewModelクラスと書いてあるが？
     {
         public string City { get; set; }
         public string Country { get; set; }
